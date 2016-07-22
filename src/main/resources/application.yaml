@@ -1,5 +1,13 @@
 greeting : hello
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
 
+logging:
+  level:
+    io:
+      pivotal: DEBUG
 ---
 spring:
   profiles: spanish
