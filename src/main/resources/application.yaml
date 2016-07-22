@@ -1,0 +1,7 @@
+greeting : hello
+
+---
+spring:
+  profiles: spanish
+
+greeting: hola
